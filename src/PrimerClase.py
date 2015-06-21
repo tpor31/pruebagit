@@ -11,8 +11,10 @@ class MyClass(object):
 
 
     def __init__(self):
-        print("Que suert")
+        print("Que ")
 
-
-c = MyClass()        
+    def imprimir(self):
+        print("prueba de impresion", sep=' ', end='\n', flush=False)
         
+c = MyClass()
+c.imprimir()
