@@ -11,7 +11,7 @@ class MyClass(object):
 
 
     def __init__(self):
-        print("Que suerte")
+        print("Que suert")
 
 
 c = MyClass()        
